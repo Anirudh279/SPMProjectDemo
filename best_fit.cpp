@@ -9,7 +9,7 @@ void findWaitingTime(int processes[], int n,
                           int bt[], int wt[])
 {
     // waiting time for first process is 0
-    wt[0] = 0;
+    wt3[0] = 0;
 
     // calculating waiting time
     for (int  i = 1; i < n ; i++ )
